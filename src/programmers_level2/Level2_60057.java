@@ -13,8 +13,8 @@ public class Level2_60057 {
         //자르는 문자열 개수 for문
         for (int i = 0; i < s.length()/2; i++) {
         	ArrayList<String> al = new ArrayList<>();
-        	String result = "";
         	ArrayList<Integer> nal = new ArrayList<>();
+        	String result = "";
         	
         	//자르는 문자열 for문
         	for (int j = 0; j < s.length()-i; j++) {
